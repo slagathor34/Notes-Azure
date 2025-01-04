@@ -1,4 +1,4 @@
-# Secure Cloud Automation - Azure
+# Secure Cloud Automation - Azure Privileged Identity Management
 
 ## Overview
 
@@ -121,7 +121,7 @@ This guide explains how to use the Azure Python SDK to initiate a Privileged Ide
 
     Execute the job template in AWX to run the playbook, which will initiate the PIM request and perform the desired Azure automation tasks.
 
-## Alignment with NIST 800-53 v5
+## Alignment with NIST 800-53 v5 & 800-171
 
 The process described aligns with several controls in NIST 800-53 v5, including:
 
@@ -136,7 +136,6 @@ The process also aligns with several controls in NIST 800-171, including:
 - **3.1.2 Limit system access to the types of transactions and functions:** By using PIM, it ensures that elevated privileges are granted only when necessary and for a limited time.
 - **3.1.5 Least privilege:** Limits the privileges of users to the minimum necessary for their roles.
 - **3.3.1 Create, protect, and retain audit records:** The process can be audited to ensure compliance and detect any unauthorized access.
-
 
 ## Mitigation of Attack Vectors in the MITRE Framework
 
